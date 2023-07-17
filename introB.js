@@ -13,7 +13,16 @@ var InitA = {
       juego.load.audio('disp', 'sounds/laser.mp3');
       juego.load.audio('point', 'sounds/getB.wav');
       juego.load.audio('strike', 'sounds/getC.wav');
+      
       juego.load.spritesheet('vidas', 'img/heart1.png', 32, 30);
+      juego.load.image('ch', 'img/bad.jpg');
+      juego.load.image('botons', 'img/reset.png');
+      juego.load.audio('fail', 'sounds/failure.wav');
+      juego.load.image('bwn', 'img/finalW.jpg');
+      juego.load.audio('win', 'sounds/win.wav');
+      juego.load.image('bg', 'img/into.jpg');
+      juego.load.image('botons', 'img/boton.png');
+      juego.load.audio('intro', 'sounds/sonidoI.mp3');
       
       juego.forceSingleUpdate = true;
       juego.stage.backgroundColor = "#000000";
